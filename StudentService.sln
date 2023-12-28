@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentService", "StudentService\StudentService.csproj", "{A9826BA4-954D-4CE3-8E89-E6FD300201A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentServicemvc", "StudentServicemvc\StudentServicemvc.csproj", "{B9F43361-FB58-4423-BCDC-B89264D5EE26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A9826BA4-954D-4CE3-8E89-E6FD300201A5} = {A9826BA4-954D-4CE3-8E89-E6FD300201A5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9826BA4-954D-4CE3-8E89-E6FD300201A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9826BA4-954D-4CE3-8E89-E6FD300201A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9826BA4-954D-4CE3-8E89-E6FD300201A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9826BA4-954D-4CE3-8E89-E6FD300201A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F43361-FB58-4423-BCDC-B89264D5EE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F43361-FB58-4423-BCDC-B89264D5EE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F43361-FB58-4423-BCDC-B89264D5EE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F43361-FB58-4423-BCDC-B89264D5EE26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D84C067-7089-429A-A7D9-2E7204089FB3}
+	EndGlobalSection
+EndGlobal
